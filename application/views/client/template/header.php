@@ -7,7 +7,7 @@
     <meta content="Hoyoland is a place for relaxation or recreation and can be used as a Vacation Place and/or events place for your Wedding, Birthdays, Company events like Team building, Training. We are located at Barangay Hoyo in Silang Cavite, 30 minutes away from Tagaytay and 15 minutes away from Nuvali." name="description">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="google-site-verification" content="0qsyU5szxJdRRpR24JzUDwAyetlxL5sq4xWMLaPQFxo" />
+    <meta name="google-site-verification" content="" />
 
      <!-- Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph -->
     <meta property="og:title" content="Hoyoland Eco Tropical Resort">
@@ -50,7 +50,7 @@
     <script src="<?php echo base_url(); ?>assets/client/template/bootstrap/js/bootstrap.min.js"></script>
 
     <script src="<?php echo base_url(); ?>assets/template/plugins/jquery-ui/jquery-ui.min.js"></script>
-    <script data-ad-client="ca-pub-9297405359948501" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script data-ad-client="" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
 
     <?php if($mode == 'sign_up'): ?>
@@ -62,7 +62,7 @@
      <script type="text/javascript">
       var onloadCallback = function() {
         grecaptcha.render('html_element', {
-          'sitekey' : '6LfkEvYZAAAAAF9Jy_gaZ5kldLQ6gedB8ZyDH4gH'
+          'sitekey' : ''
         });
       };
     </script>
@@ -120,7 +120,7 @@
     
       <div class="fb-customerchat"
         attribution=setup_tool
-        page_id="100411365228526">
+        page_id="">
       </div>
       
 	<!-- Page Preloder -->
