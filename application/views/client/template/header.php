@@ -56,7 +56,7 @@
     <?php if($mode == 'sign_up'): ?>
     <!-- <script src="https://www.google.com/recaptcha/api.js"></script> -->
     
-    <!-- <script src="https://www.google.com/recaptcha/api.js?render=6LfFCvYZAAAAAFw2QhwyXHF1by5BsysnSbpoo-ZJ"></script> -->
+    <!-- <script src="https://www.google.com/recaptcha/api.js?render="></script> -->
 
   <!-- For Remote Development -->
      <script type="text/javascript">
