@@ -49,30 +49,7 @@
 <!-- <script src="<?php //echo base_url();?>assets/template/plugins/bootstrap-slider/bootstrap-slider.min.js"></script> -->
 
 
-<?php 
-  $home = $this->uri->segment(1);
-  $uriA = $this->uri->segment(2);
-  $uriB = $this->uri->segment(3);
-  $base = base_url(); 
-  switch ($uriA) {
-    case 'reservation':
-      //echo '<script type="text/javascript" src="'.$base.'assets/js/settings.js"></script>';
-        if($uriB == 'pending'){
-      echo '<script type="text/javascript" src="'.$base.'assets/js/admin/'.$uriA.'/'.$uriB.'.js"></script>';} else if($uriB == 'confirmed'){
-      echo '<script type="text/javascript" src="'.$base.'assets/js/admin/'.$uriA.'/'.$uriB.'.js"></script>';} else if($uriB == 'check-in'){
-      echo '<script type="text/javascript" src="'.$base.'assets/js/admin/'.$uriA.'/'.$uriB.'.js"></script>';} else if($uriB == 'finished'){
-      echo '<script type="text/javascript" src="'.$base.'assets/js/admin/'.$uriA.'/'.$uriB.'.js"></script>';} else if($uriB == 'cancelled'){
-      echo '<script type="text/javascript" src="'.$base.'assets/js/admin/'.$uriA.'/'.$uriB.'.js"></script>';}
-      break;
-    case 'maintenance':
-         echo '<script type="text/javascript" src="'.$base.'assets/js/maintenance.js"></script>';
-    break;
-    case 'index':
-         echo '<script type="text/javascript" src="'.$base.'assets/js/reserved.js"></script>';
-    break;
-  }
 
-?>
 <script type="text/javascript">
     (function () {
         var options = {
