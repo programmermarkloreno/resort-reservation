@@ -84,31 +84,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> Power
     
     <script src="<?php echo base_url(); ?>assets/client/wow/wow.min.js"></script>
     <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/main.js"></script> 
-    <?php 
-         $base = base_url();
-         $segment = $this->uri->segment(2);
-         switch ($segment) {
-             case 'index':
-                echo '<script type="text/javascript" src="'.$base.'assets/js/client/'.$segment.'.js"></script>';
-                 break;
-             case 'signin':
-                echo '<script type="text/javascript" src="'.$base.'assets/js/client/'.$segment.'.js"></script>';
-                 break;
-             case 'sign_up':
-                echo '<script type="text/javascript" src="'.$base.'assets/js/client/'.$segment.'.js"></script>';
-                 break;
-             case 'accommodation':
-                echo '<script type="text/javascript" src="'.$base.'assets/js/client/'.$segment.'.js"></script>';
-                 break;
-             case 'reservation_summary':
-                echo '<script type="text/javascript" src="'.$base.'assets/js/client/'.$segment.'.js"></script>';
-                 break;
-             default:
-                 # code...
-                 break;
-         }
 
-    ?>
+
+
     <!-- <script type="text/javascript"> 
      window.addEventListener("load", window.print());
    </script> -->
